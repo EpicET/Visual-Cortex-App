@@ -14,7 +14,7 @@ library(bslib)
 library(shinydashboard)
 options(scipen = 100000)
 
-#setwd("~/JTerm 2022 - DSCI/visualcortex_final")
+
 
 evoked.df <- read_csv("spikeTimes_monkey1_evoked.csv")
 evoked.df[evoked.df == 'NaN']= NA
